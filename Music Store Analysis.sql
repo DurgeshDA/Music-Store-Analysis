@@ -22,7 +22,7 @@ FROM invoice
 ORDER BY total DESC
 LIMIT 3 ;
 
--- Q4. Which city has the ebst customers? Write a query that returns one city that has the highest sum of 
+-- Q4. Which city has the best customers? Write a query that returns one city that has the highest sum of 
 -- invoice totals. Return both the city name and sum of all invoice total.
 
 SELECT SUM(total) AS invoice_total, billing_city 
